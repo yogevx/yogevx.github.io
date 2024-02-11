@@ -209,6 +209,18 @@ button:hover,
     cursor: pointer;
     border-radius: 5px; /* Optional: adds rounded corners to the button */
 }
+.button-whatsapp {
+    background-color: #345; /* Darker shade; adjust as needed */
+    color: #fff; /* White text color for better contrast */
+    padding: 10px 20px; /* Adjust padding to your preference */
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: adds rounded corners to the button */
+}
 
 .round-icon {
     border-radius: 50%; /* Makes the icon round */
@@ -1062,7 +1074,7 @@ button:hover,
 /* WhatsApp */
 .button.button-whatsapp {
   color: #ffffff;
-  background-color: #455a64;
+  background-color: #488a5e;
 }
 .button.button-whatsapp:hover,
 .button.button-whatsapp:focus {
