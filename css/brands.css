@@ -191,6 +191,24 @@ button:hover,
 .button.button-behance:focus {
   filter: brightness(90%);
 }
+.button-telegram {
+    background-color: #345; /* Darker shade; adjust as needed */
+    color: #fff; /* White text color for better contrast */
+    padding: 10px 20px; /* Adjust padding to your preference */
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: adds rounded corners to the button */
+}
+
+.round-icon {
+    border-radius: 50%; /* Makes the icon round */
+    width: 24px; /* Adjust the size of the icon as needed */
+    height: 24px; /* Adjust the size of the icon as needed */
+}
 
 /* Bluesky */
 .button.button-bluesky {
