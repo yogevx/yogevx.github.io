@@ -1,10 +1,23 @@
 $(document).ready(function() {
-    // Simulated data fetch function
+    // Fetch and process data
+    // Note: Adapt this function to fetch data from your source
     function fetchData() {
         // Example data structure
         return [
-            { date: "Today", categories: ["Football", "Basketball"] },
-            { date: "Tomorrow", categories: ["Tennis", "Volleyball"] }
+            { 
+                date: "Today", 
+                categories: [
+                    { name: "Football", matches: ["Match 1", "Match 2"] },
+                    { name: "Basketball", matches: ["Match 3", "Match 4"] }
+                ]
+            },
+            { 
+                date: "Tomorrow", 
+                categories: [
+                    { name: "Tennis", matches: ["Match 5", "Match 6"] },
+                    { name: "Volleyball", matches: ["Match 7", "Match 8"] }
+                ]
+            }
         ];
     }
 
