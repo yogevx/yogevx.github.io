@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Match Schedule</title>
+    <title>Simple Test</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
 <div class="container">
-    <ul id="days-tabs" class="tabs"></ul>
-    <div id="categories-content"></div>
+    <ul class="tabs">
+        <li class="tab"><a href="#test1">Test Tab</a></li>
+    </ul>
+    <div id="test1" class="col s12">This is just a test tab.</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="script.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.tabs').tabs();
+    });
+</script>
 </body>
 </html>
