@@ -1142,3 +1142,12 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Chatgpt */
+.button.button-chatgpt {
+  color: #ffffff;
+  background-color: #465354;
+}
+.button.button-zoom:hover,
+.button.button-zoom:focus {
+  filter: brightness(90%);
+}
