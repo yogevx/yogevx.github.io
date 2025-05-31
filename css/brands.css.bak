@@ -26,6 +26,12 @@
 
 */
 
+.app-title {
+    font-size: 16px; /* Makes the text smaller */
+    margin-bottom: 5px; /* Reduces space between the text and the button */
+    /* Adjust font-size and margin-bottom as needed */
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -37,8 +43,7 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  width: 100%; /* Make buttons responsive */
-  max-width: 400px; /* Prevent buttons from becoming too wide */
+  width: 300px;
   font-weight: 700;
   line-height: 20px;
   padding: 14px 12px 12px 12px;
@@ -47,23 +52,14 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
-}     
+
+}
 button:hover,
 .button:focus {
-  color: #212121; /* Default text color on hover/focus for light mode */
+  color: #212121;
   border-color: #888;
-  outline: #007bff solid 3px; /* Standard Blue for focus outline */
+  outline: #7AB8FF solid 3px
 }
-
-@media (prefers-color-scheme: dark) {
-  button:hover,
-  .button:focus {
-    color: #e0e0e0; /* Light gray text color on hover/focus for dark mode */
-    outline: #64b5f6 solid 3px; /* Lighter Blue for focus outline in dark mode */
-  }
-}
-
 .button.button-primary {
   color: #fff;
   filter: brightness(90%);
@@ -201,10 +197,30 @@ button:hover,
 .button.button-behance:focus {
   filter: brightness(90%);
 }
-/* .button-telegram and .button-whatsapp were identical to generic .button styles and button-telegram brand style.
-   Keeping specific brand styles for .button.button-telegram and .button.button-whatsapp below.
-   If these generic .button-telegram and .button-whatsapp were meant for something else, they should be re-added with distinct names.
-*/
+.button-telegram {
+    background-color: #345; /* Darker shade; adjust as needed */
+    color: #fff; /* White text color for better contrast */
+    padding: 10px 20px; /* Adjust padding to your preference */
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: adds rounded corners to the button */
+}
+.button-whatsapp {
+    background-color: #345; /* Darker shade; adjust as needed */
+    color: #fff; /* White text color for better contrast */
+    padding: 10px 20px; /* Adjust padding to your preference */
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: adds rounded corners to the button */
+}
 
 .round-icon {
     border-radius: 50%; /* Makes the icon round */
@@ -1131,14 +1147,7 @@ button:hover,
   color: #ffffff;
   background-color: #465354;
 }
-/* This hover/focus rule was overriding the chatgpt button's own hover/focus, and was specific to zoom button color */
-/*
 .button.button-zoom:hover,
 .button.button-zoom:focus {
   filter: brightness(90%);
-}
-*/
-/* Ensure all buttons have a consistent hover/focus behavior if not specified by brand */
-.button:hover, .button:focus {
-    filter: brightness(90%);
 }

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Page Information
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Yogev Haham | Bio</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Themes:
+            Auto:   css/skeleton-auto.css
+            Light:  css/skeleton-light.css
+            Dark:   css/skeleton-dark.css
+     -->
+    <link rel="stylesheet" href="css/skeleton-auto.css">
+
+    <!-- Brand Styles -->
+    <link rel="stylesheet" href="css/brands.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/icon-512.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+
+        <!--
+
+          ## Getting Started with LittleLink
+
+          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+
+          You can add your own brand or others brands you may need in the `css/brands.css` file.
+
+          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
+
+          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+
+          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+
+          Edit the "Short Bio" section tell users about yourself or your brand.
+
+        -->
+
+        <!-- Your Image Here -->
+        <img src="images/2024-02-11 23.23.21.jpg" class="avatar" srcset="images/2024-02-11 23.23.21.jpg 2x" alt="">
+
+        <!-- Title -->
+        <h1 role="heading">Yogev Haham</h1>
+
+        <!-- Short Bio -->
+        <p> DevOps Engineer: Automation expert.</p>
+        <p>Explore my apps and Telegram links below.</p>
+
+        <!--
+
+          ## Breaking down <a> attributes:
+
+          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
+          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
+          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+
+          2.) Replace the # in href="#" with the desired target URL for the button.
+
+          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+
+          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+
+          5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
+
+          ## Breaking down the <img> attributes:
+
+          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+
+          2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
+          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+
+          3.) alt="" | Since the text at the end of the snippet, "..>[Button Text]</a><br>", explains what the button is, we use "alt=""" to nullify the icon annoucement from the accessibility tree.
+          This can improve the experience for assistive technology users by hiding what is essentially duplicated
+
+        -->
+        <p class="app-title">Android Applications</p>
+        <a class="button button-playstore" href="https://play.google.com/store/apps/details?id=com.html.htmlviewer" target="_blank" rel="noopener" role="button">
+            <img class="icon" src="images/icons/htmlviewer.webp" alt="">HTML Viewer
+        </a><br>
+
+        <a class="button button-playstore" href="https://play.google.com/store/apps/details?id=com.saver.photoandvideosaver" target="_blank" rel="noopener" role="button">
+            <img class="icon" src="images/icons/filesaver.webp" alt="">File Saver
+        </a><br>
+
+        <a class="button button-playstore" href="https://play.google.com/store/apps/details?id=com.saver.wavoicemessagesaver" target="_blank" rel="noopener" role="button">
+            <img class="icon" src="images/icons/voicemessagesaver.png" alt="">Voice Message Saver
+        </a><br>
+
+        <a class="button button-playstore" href="https://play.google.com/store/apps/details?id=com.html.arscanner" target="_blank" rel="noopener" role="button">
+            <img class="icon" src="images/icons/AIQRIcon.png" alt="">AI QR Scanner
+        </a><br>
+
+        <a class="button button-playstore" href="https://play.google.com/store/apps/details?id=com.saver.gphotossaver" target="_blank" rel="noopener" role="button">
+            <img class="icon" src="images/icons/g_photos.jpeg" alt="">G-Photos Saver
+        </a><br>
+
+
+        <br>
+        <p class="app-title">Telegram Channels</p>
+        <a class="button button-telegram" href="https://t.me/TechFeedIL" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/technews.jpg" alt="">חדשות הטכנולוגיה
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/il_tech_news" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/briefTech.jpg" alt="">חדשות הטכנולוגיה - התקציר היומי
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/EvNewsIL" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/evnews.jpg" alt="">חדשות הרכבים החשמליים
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/FeedAndroid" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/androidnewsfeed.jpg" alt="">Android News Feed
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/DevOpsFeed" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/devopsnews.jpg" alt="">DevOps Feed
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/MegaDeals" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/megadeals.jpg" alt=""> MegaDeals - Bot
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/Shiddurim" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/shidurim.png" alt=""> לוח שידורי ספורט
+        </a><br>
+<!--         <a class="button button-telegram" href="https://t.me/supermarket_sales" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/supercoupon.jpg" alt="">מבצעי עיתונים
+        </a><br> -->
+
+
+        <br>
+        <p class="app-title">Telegram Groups and Bots</p>
+        <a class="button button-telegram" href="https://t.me/NetworksStreamers" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/networkstreamers.jpg" alt="">סטרימרים, תקשורת ושירותי טלוויזיה
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/Pixel_Israel" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/pixel.jpg" alt="">Google Pixel Israel
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/shidurim_bot" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/shidurimbot.jpg" alt="">לוח שידורי ספורט - Bot
+        </a><br>
+        <a class="button button-telegram" href="https://t.me/AliExpSale_bot" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/alibot.jpg" alt="">AliExpress Discount Bot
+        </a><br>
+
+        <br>
+        <p class="app-title">AI</p>
+        <a class="button button-chatgpt" href="https://chatgpt.com/g/g-68340a4280dc81918bb8b8ec88f83606-devops-expert" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/chat-gpt-icon-white.jpg" alt="">DevOps Expert - GPT
+        </a><br>
+        <a class="button button-chatgpt" href="https://chatgpt.com/g/g-6834093323d481919a4e59ddcceb4d4f-app-icon-creator" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/chat-gpt-icon-white.jpg" alt="">App Icon Creator - GPT
+        </a><br>
+        <a class="button button-chatgpt" href="https://chatgpt.com/g/g-683407d5608c8191a8fcfad59e818b8b-rewrite" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/chat-gpt-icon-white.jpg" alt="">Rewrite - GPT
+        </a><br>
+
+<!--         <br>
+        <p class="app-title">Web Apps</p>
+        <a class="button button-telegram" href="https://yogevx.com/apps/matches_website/index.html" target="_blank" rel="noopener" role="button">
+            <img class="icon round-icon" src="images/icons/shidurimbot.jpg" alt=""> שידורי ספורט
+        </a><br> -->
+
+        <br>
+        <br>
+
+        <p class="app-title">Get in Touch</p>
+
+        <a class="button button-linked" href="https://www.linkedin.com/in/yogev-haham-07b46a88" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/linkedin.svg" alt="">Yogev Haham | LinkedIn</a><br>
+
+        <a class="button button-github" href="https://github.com/yogevx" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/github.svg" alt="">Yogev Haham | GitHub</a><br>
+
+        <a class="button button-default" href="mailto:yogevx@gmail.com" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/generic-email-alt.svg" alt="">Contact Me | Email</a><br>
+
+        <a class="button button-telegram2" href="http://t.me/yogevx" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/telegram.svg" alt="">Contact Me | Telegram</a><br>
+
+        <!--
+            Footer:
+            This includes a link to privacy.html page which can be setup for your Privacy Policy.
+            This also includes a link to the LittleLink repository to make forking LittleLink easier.
+            You can edit or remove anything here to make your own footer.
+        -->
+        <p> Made by <a href="https://yogevx.com" target="_blank" rel="noopener">Yogev Haham</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
